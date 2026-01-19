@@ -1,5 +1,5 @@
 # MatamatikFinalSoru1
-İstanbul Kent Üniversitesi Matematik ödevi için yapılmış C++ ile programlanmış, ikinci derecen fonksiyonların köklerini hesaplayan bir uygulamadır.
+İstanbul Kent Üniversitesi Matematik ödevi için C++ programlama dili kullanılarak geliştirilmiş, ikinci derecen fonksiyonların köklerini hesaplayan bir uygulamadır.
 
 Öğrenci Bilgileri :
 
@@ -8,8 +8,6 @@ AD SOYAD: Tarek Sharabaty
 ÖĞRENCİ NO: 2507020015
 
 BÖLÜM: Bilgisayar Mühendisliği
-
-
 
 Programın Çalışma Mantığı :
 
