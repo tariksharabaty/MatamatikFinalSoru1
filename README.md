@@ -10,6 +10,7 @@ AD SOYAD: Tarek Sharabaty
 BÖLÜM: Bilgisayar Mühendisliği
 
 
+
 Programın Çalışma Mantığı :
 
 1) Güvenli Veri Girişi: Kullanıcıdan a, b ve c katsayıları istenirken, girilen değerin gerçekten bir sayı olup olmadığı kontrol edilir.
