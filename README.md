@@ -1,13 +1,13 @@
 # MatamatikFinalSoru1
 İstanbul Kent Üniversitesi Matematik ödevi için C++ programlama dili kullanılarak geliştirilmiş, ikinci derecen fonksiyonların köklerini hesaplayan bir uygulamadır.
 
-Öğrenci Bilgileri :
+**Öğrenci Bilgileri:**
 
-AD SOYAD: Tarek Sharabaty
+•AD SOYAD: Tarek Sharabaty
 
-ÖĞRENCİ NO: 2507020015
+•ÖĞRENCİ NO: 2507020015
 
-BÖLÜM: Bilgisayar Mühendisliği
+•BÖLÜM: Bilgisayar Mühendisliği
 
 **Programın Çalışma Mantığı :**
 
@@ -21,14 +21,14 @@ BÖLÜM: Bilgisayar Mühendisliği
 
    **Programdan Ekran Görüntüleri**
    
-   **.Örn:** 4x^2 + 5x - 7
+   **•Örn:** 4x^2 + 5x - 7
    
    <img width="695" height="305" alt="Image" src="https://github.com/user-attachments/assets/f0f17793-0ffe-4f9e-85eb-2390563392a7" />
 
-   **.Örn:** 4x^2 + 5x + 10
+   **•Örn:** 4x^2 + 5x + 10
    
    <img width="704" height="272" alt="Image" src="https://github.com/user-attachments/assets/ff009f3d-dae5-403c-aa03-82109e3fd4d3" />
 
-   **.Örn:** 1x^2 - 6x + 4
+   **•Örn:** 1x^2 - 6x + 4
    
    <img width="698" height="305" alt="Image" src="https://github.com/user-attachments/assets/ad5c40cf-853a-4299-9ec6-42891a5c4fdc" />
