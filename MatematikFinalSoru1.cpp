@@ -10,41 +10,51 @@ int main()  {
 	double a, b, c;
 	double delta, x1 ,x2;
 	
-	cout <<"İkinci dereceden denklem (ax^2 + bx + c = 0) çözümü için katsayıları giriniz." << endl;
+	cout <<"Ä°kinci dereceden denklem (ax^2 + bx + c = 0) Ã§Ã¶zÃ¼mÃ¼ iÃ§in katsayÄ±larÄ± giriniz." << endl;
 	
-	cout <<"a Katsayısını Giriniz: ";
+	cout <<"a KatsayÄ±sÄ±nÄ± Giriniz: ";
 	cin >> a;
 	
-	cout <<"b Katsayısını Giriniz: ";
+	cout <<"b KatsayÄ±sÄ±nÄ± Giriniz: ";
 	cin >> b;
 	
-    cout <<"c Katsayısını Giriniz: ";
+    cout <<"c KatsayÄ±sÄ±nÄ± Giriniz: ";
 	cin >> c;
 	
+    cout << "\nFonksiyon '" << a << "x^2";
+    
+    if (b >= 0) cout << " + " << b << "x";
+    else cout << " - " << -b << "x";
+    
+    if (c >= 0) cout << " + " << c;
+    else cout << " - " << -c;
+    
+    cout << "' Olarak tanÄ±mlandÄ±!" << endl;
+
 	delta = (b * b) - (4 * a * c);
 	cout << "\n---------------------------------------" << endl;
 	cout << "Diskriminat (Delta): " << delta << endl;
 	cout << "----------------------------------------" << endl;
 	
 	if (delta < 0) {
-		cout << "Sonuç: Delta < 0 olduğundan iki farklı gerçek kök yoktur." << endl;
+		cout << "SonuÃ§: Delta < 0 olduÄŸundan iki farklÄ± gerÃ§ek kÃ¶k yoktur." << endl;
 	}
 	else if (delta == 0) {
 		x1 = -b / (2 * a);
-		cout << "Sonuç: Delta < 0 olduğundan tek bir gerçek kök vardır." <<endl;
-		cout << "Kök (x): " << x1 << endl;
+		cout << "SonuÃ§: Delta = 0 olduÄŸundan tek bir (Ã§ift katlÄ±) gerÃ§ek kÃ¶k vardÄ±r." <<endl;
+		cout << "KÃ¶k (x): " << x1 << endl;
 	}
     else {
     	x1 = (-b + sqrt(delta)) / (2 * a);
     	x2 = (-b - sqrt(delta)) / (2 * a);
 			
-    	cout << "Sonuç: Delta > 0 olduğundan iki farklı gerçek kök vardır." << endl;
-    	cout << "Birinci Kök (x1): " << x1 << endl;
-    	cout << "İkinci Kök (x2): " << x2 << endl;
+    	cout << "SonuÃ§: Delta > 0 olduÄŸundan iki farklÄ± gerÃ§ek kÃ¶k vardÄ±r." << endl;
+    	cout << "Birinci KÃ¶k (x1): " << x1 << endl;
+    	cout << "Ä°kinci KÃ¶k (x2): " << x2 << endl;
 	}
 	
 	cout << "\n---------------------------------------" << endl;
-	cout << " Çıkmak için bir tuşa basınız..." << endl;
+	cout << " Ã‡Ä±kmak iÃ§in bir tuÅŸa basÄ±nÄ±z..." << endl;
 	
 	cin.ignore();
 	cin.get();
