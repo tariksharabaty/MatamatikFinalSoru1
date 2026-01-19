@@ -15,6 +15,3 @@ Programın Çalışma Mantığı :
    Δ < 0: Reel kök bulunmadığı belirtilir.
 
    Programdan Ekran Görüntüleri
-
-    Örn : x² - 5x + 7
-    <img width="697" height="272" alt="Image" src="https://github.com/user-attachments/assets/565bd47e-45fb-4b53-9d32-4d6a7a553aa3" />
