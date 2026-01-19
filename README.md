@@ -17,4 +17,4 @@ Programın Çalışma Mantığı :
    Programdan Ekran Görüntüleri
 
     Örn : x² - 5x + 7
-    <!-- Uploading "Ekran görüntüsü 2026-01-19 152207.png"... -->
+    <img width="697" height="272" alt="Image" src="https://github.com/user-attachments/assets/565bd47e-45fb-4b53-9d32-4d6a7a553aa3" />
